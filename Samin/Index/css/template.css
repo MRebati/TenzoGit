@@ -100,11 +100,13 @@ header {
 
 #site-header {
     background: rgba(0, 0, 0, 0) url("../Content/images/header-bg.jpg") no-repeat scroll center center / cover;
+    margin-bottom: 30px;
 }
 
 .headerdata {
     background: rgba(0, 0, 0, 0) url("../Content/images/header-bg.jpg") no-repeat scroll center center / cover;
     height: 100px !important;
+    margin-bottom: 30px;
 }
 
 .container {
@@ -113,6 +115,34 @@ header {
     margin: 0 auto;
     position: relative;
     width: 1020px;
+}
+
+.breadcrumb {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,000000+100&amp;0.04+0,0.04+100 */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwLjA0Ii8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMC4wNCIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  rgba(255,255,255,0.04) 0%, rgba(0,0,0,0.04) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.04)), color-stop(100%,rgba(0,0,0,0.04))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,0.04) 0%,rgba(0,0,0,0.04) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(255,255,255,0.04) 0%,rgba(0,0,0,0.04) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(255,255,255,0.04) 0%,rgba(0,0,0,0.04) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(255,255,255,0.04) 0%,rgba(0,0,0,0.04) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0affffff', endColorstr='#0a000000',GradientType=0 ); /* IE6-8 */
+    border-bottom: 1px solid #e2e2e2;
+    height: auto;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+}
+.breadcrumb ul li {
+    display: inline-block;
+    margin: 0 10px 0 0;
+}
+.breadcrumb ul li a {
+    display: inline-block;
+    padding: 0 10px;
+}
+.breadcrumb ul li a:hover {
 }
 
 .down-mask {
@@ -229,6 +259,13 @@ header {
     width: 1000px;
 }
 
+#searchframe {
+    border: 1px solid #f2f2f2;
+    border-radius: 10px;
+    margin: 20px 0;
+    padding: 10px 0;
+}
+
 .search {
     padding-top: 5%;
     text-align: center;
@@ -305,6 +342,8 @@ header {
 .samin-newstore {
     float: right;
     position: relative;
+    width: 100%;
+    min-height: 100px;
 }
 
 .shop-fg {
@@ -325,6 +364,10 @@ header {
 }
 
 article {
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    width: 1020px;
 }
 
 .inner {
@@ -370,6 +413,117 @@ article {
         margin-right: 7px;
         margin-top: 4px;
     }
+
+    .shop-cover {
+    background: #eee none repeat scroll 0 0;
+    height: 300px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.botton-cover {
+    bottom: 0;
+    height: 100px;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+.cover-blur {
+    -webkit-filter: grayscale(0.714859437751004)  blur(8.795180722891565px) sepia(0.18072289156626506) saturate(0.7389558232931727) opacity(0.9076305220883534) brightness(0.8955823293172691) contrast(0.8554216867469879)  hue-rotate(24.57831325301205deg) invert(0);
+    -moz-filter: grayscale(0.714859437751004)  blur(8.795180722891565px) sepia(0.18072289156626506) saturate(0.7389558232931727) opacity(0.9076305220883534) brightness(0.8955823293172691) contrast(0.8554216867469879)  hue-rotate(24.57831325301205deg) invert(0);
+    -o-filter: grayscale(0.714859437751004)  blur(8.795180722891565px) sepia(0.18072289156626506) saturate(0.7389558232931727) opacity(0.9076305220883534) brightness(0.8955823293172691) contrast(0.8554216867469879)  hue-rotate(24.57831325301205deg) invert(0);
+    filter: grayscale(0.714859437751004)  blur(8.795180722891565px) sepia(0.18072289156626506) saturate(0.7389558232931727) opacity(0.9076305220883534) brightness(0.8955823293172691) contrast(0.8554216867469879)  hue-rotate(24.57831325301205deg) invert(0);
+    height: 100px;
+    position: absolute;
+}
+
+.cover-blur img {
+    bottom: 0;
+    position: absolute;
+}
+.shop {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
+    bottom: 0;
+    height: 80px;
+    position: absolute;
+    width: 100%;
+}
+.shop-logo {
+    background: none repeat scroll 0 0 #ddd;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    float: right;
+    height: 160px;
+    position: relative;
+    right: 40px;
+    top: -100px;
+    width: 160px;
+}
+.shop h2 {
+    color: #fff;
+    float: right;
+    font-size: 30px;
+    margin: 10px 60px 0 0;
+}
+.shop h3 {
+    color: #fff;
+    float: right;
+    font-size: 20px;
+    margin: 22px 120px 0 0;
+}
+.shop span {
+    color: #fff;
+    float: right;
+    font-size: 20px;
+}
+.shop-detail {
+    display: block;
+    height: auto;
+    margin: 20px auto;
+    width: 1020px;
+}
+.shop-off {
+    background: none repeat scroll 0 0 #fbfbfb;
+    border-radius: 10px;
+    box-shadow: 0 0 10px -5px #000;
+    height: 145px;
+    margin: 20px 0;
+    padding: 20px 15px;
+    width: 470px;
+}
+.shop-off span {
+    background: none repeat scroll 0 0 #fa8500;
+    border-radius: 50%;
+    color: #fff;
+    display: unset;
+    font-size: 50px;
+    padding: 20px 20px 30px;
+}
+.off {
+    position: relative;
+    right: 20px;
+    top: 30px;
+}
+.shop-contact {
+    background: none repeat scroll 0 0 #fbfbfb;
+    border-radius: 10px;
+    box-shadow: 0 0 10px -5px #000;
+    height: 120px;
+    margin: 20px 0;
+    padding: 20px 15px;
+    width: 470px;
+}
+.shop-contact p {
+    font-size: 17px;
+    line-height: 2.5;
+}
+.shop-gallary {
+    height: auto;
+    margin: 20px 0;
+    width: 498px;
+}
 
 .image-store {
     background: #eee none repeat scroll 0 0;
@@ -430,6 +584,7 @@ article {
     height: 96px;
     position: absolute;
     width: 89px;
+    z-index: 100;
 }
 
 .Installmentsbadge {
@@ -438,6 +593,7 @@ article {
     height: 101px;
     position: absolute;
     width: 93px;
+    z-index: 100;
 }
 
 .samin-stors h2 {
@@ -542,3 +698,34 @@ footer {
         color: #999;
         list-style: outside none none;
     }
+
+    .overlay,
+.overlay-wrapper > .overlay,
+.loading-img,
+.overlay-wrapper > .loading-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.overlay,
+.overlay-wrapper .overlay {
+  z-index: 50;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 3px;
+}
+.overlay > .fa,
+.overlay-wrapper .overlay > .fa {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -15px;
+  margin-top: -15px;
+  color: #000;
+  font-size: 30px;
+}
+.overlay.dark,
+.overlay-wrapper .overlay.dark {
+  background: rgba(0, 0, 0, 0.5);
+}
